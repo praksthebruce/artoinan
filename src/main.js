@@ -105,7 +105,7 @@ async function loadAPOD(date) {
 
     app.innerHTML = `
           <header class="site-header">
-    <h2>ASTRA</h2>
+    <h2>Artonian</h2>
     <p>NASA DAILY SPACE EXPLORER</p>
   </header>
 
