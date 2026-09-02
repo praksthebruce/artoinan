@@ -1,6 +1,6 @@
 import "./style.css";
 
-const API_KEY = import.meta.env.VITE_NASA_API_KEY;
+const API_KEY = "sg39QzBQ6MiBYGXx7Y20BxaQk6gzMFftHNICLNOE"; // I placed the API key directly, as it was'nt a secret anyway and Netlify gives  env variables only for paid users.
 const app = document.querySelector("#app");
 
 let current_date = new Date();
@@ -148,7 +148,7 @@ async function loadAPOD(date) {
       };
     });
 
-  } catch (err) {
+   } catch (err) {
     app.innerHTML = `
       <p>Failed to load: ${err.message}</p>
     `;
